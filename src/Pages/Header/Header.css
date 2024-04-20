@@ -1,0 +1,104 @@
+header {
+    /* position: absolute;
+    top: -10px; */
+    /* width: 100%;
+    z-index: 100; */
+}
+
+/* .logo h2 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: var(--white);
+} */
+
+/* .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 15px;
+    position: relative;
+} */
+
+/* .nav-header .links {
+    display: flex;
+    gap: 20px;
+} */
+
+/* .nav-header .links .link {
+    cursor: pointer;
+    color: var(--white);
+    transition: .2s ease-in-out;
+}
+
+.link:hover {
+    color: #adb5bd;
+} */
+
+/* .hamburger {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    color: var(--white);
+    cursor: pointer;
+} */
+
+
+@media (max-width: 500px) {
+
+    .mobile {
+        /* display: flex;
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        padding: .5rem 1rem 1rem 1rem;
+        align-items: start;
+        flex-direction: column;
+        justify-content: start;
+        margin: 10px;
+        color: var(--black);
+        transition: all .3s ease-in;
+        border-radius: 0.25rem;
+        background: var(--white);
+        box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1); */
+    }
+
+    .mobile .logo h2 {
+        color: var(--black);
+        padding-top: 5px;
+    }
+
+    .mobile .links {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0 1rem 0;
+        gap: 1rem;
+    }
+
+    .mobile .links .link-name {
+        cursor: pointer;
+    }
+
+    .mobile .links .link-name .link {
+        margin-right: 1rem;
+    }
+
+    .hamburger .close {
+        color: var(--black);
+    }
+
+    .nav-header .links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+}
